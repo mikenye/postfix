@@ -1,4 +1,4 @@
-FROM debian:bullseye-20240423-slim
+FROM debian:bullseye-20241016-slim
 
 ENV CLAMAV_CLAMDCONF_FILE="/usr/local/etc/clamd.conf" \
     CLAMAV_FRESHCLAMCONF_FILE="/usr/local/etc/freshclam.conf" \
